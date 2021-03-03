@@ -1,0 +1,6 @@
+127.0.0.1 - - [03/Mar/2021:14:37:19 +0800] GET /register HTTP/1.1 200 1479 http-bio-8080-exec-1 686
+127.0.0.1 - - [03/Mar/2021:14:37:19 +0800] GET /static/css/bootstrap-4.6.0.min.css HTTP/1.1 200 161409 http-bio-8080-exec-2 2
+127.0.0.1 - - [03/Mar/2021:14:37:19 +0800] GET /static/js/jquery-3.5.1.slim.min.js HTTP/1.1 200 72379 http-bio-8080-exec-3 2
+127.0.0.1 - - [03/Mar/2021:14:37:19 +0800] GET /static/js/bootstrap-4.6.0.min.js HTTP/1.1 200 63467 http-bio-8080-exec-4 1
+127.0.0.1 - - [03/Mar/2021:14:37:19 +0800] GET /static/js/popper-1.16.1.min.js HTTP/1.1 200 21232 http-bio-8080-exec-6 2
+127.0.0.1 - - [03/Mar/2021:14:37:45 +0800] POST /signUp HTTP/1.1 500 1318 http-bio-8080-exec-8 57
