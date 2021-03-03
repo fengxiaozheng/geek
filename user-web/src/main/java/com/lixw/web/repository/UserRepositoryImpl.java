@@ -103,6 +103,7 @@ public class UserRepositoryImpl implements UserRepository {
                     System.out.println("user = " + user);
                     return user;
                 } else {
+                    User user = new User();
                     for (PropertyDescriptor propertyDescriptor : beanInfo.getPropertyDescriptors()) {
                         String propertyName = propertyDescriptor.getName();
                         Class<?> propertyType = propertyDescriptor.getPropertyType();
@@ -115,12 +116,11 @@ public class UserRepositoryImpl implements UserRepository {
                         // PropertyDescriptor ReadMethod 等于 Getter 方法
                         // PropertyDescriptor WriteMethod 等于 Setter 方法
                         Method writeMethod = propertyDescriptor.getWriteMethod();
-                        User user = new User();
                         //姜值写入user
                         writeMethod.invoke(user, resultValue);
-                        System.out.println(" invoke user = " + user);
-                        return user;
                     }
+                    System.out.println(" invoke user = " + user);
+                    return user;
                 }
             }
         } catch (Exception throwable) {
@@ -133,8 +133,10 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public boolean save(User user) {
         try {
-            int i = statement.executeUpdate("INSERT INTO users(name, password, email, phoneNumber) VALUES ('"+user.getName()
-                    +"', '"+ user.getPassword() +"', '" + user.getEmail() +"', '" + user.getPhoneNumber() + "')");
+            String sql = "INSERT INTO users(name, password, email, phoneNumber) VALUES ('"+user.getName()
+                    +"', '"+ user.getPassword() +"', '" + user.getEmail() +"', '" + user.getPhoneNumber() + "')";
+            System.out.println("sql = " + sql);
+            int i = statement.executeUpdate(sql);
             return i > 0;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
