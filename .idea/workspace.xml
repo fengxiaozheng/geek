@@ -9,24 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6189c022-fea5-4284-9958-a9417a941635" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-03" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6189c022-fea5-4284-9958-a9417a941635" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +182,7 @@
       <updated>1614666816163</updated>
       <workItem from="1614666817522" duration="953000" />
       <workItem from="1614667799216" duration="16528000" />
-      <workItem from="1614733250642" duration="24786000" />
+      <workItem from="1614733250642" duration="25945000" />
     </task>
     <servers />
   </component>
