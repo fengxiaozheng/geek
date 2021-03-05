@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean save(User user) {
         UserRepository userRepository = new UserRepositoryImpl();
-        // userRepository.drop();
+         userRepository.drop();
         userRepository.createTable();
         boolean b = userRepository.save(user);
         if (b) {

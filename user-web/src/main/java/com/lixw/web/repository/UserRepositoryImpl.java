@@ -34,31 +34,31 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     public UserRepositoryImpl() {
-//        this.dataSource = initDataSource();
-//        if (dataSource != null) {
-//            try {
-//                connection = dataSource.getConnection();
-//                statement = connection.createStatement();
-//            } catch (SQLException troubles) {
-//                troubles.printStackTrace();
-//            }
+        this.dataSource = initDataSource();
+        if (dataSource != null) {
+            try {
+                connection = dataSource.getConnection();
+                statement = connection.createStatement();
+            } catch (SQLException troubles) {
+                troubles.printStackTrace();
+            }
 
 
+//        String databaseUrl = "jdbc:derby:/Users/lixw/opt/db/user-platform;create=true";
+//        try {
+//
+//
+////            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+////            Driver driver = DriverManager.getDriver("jdbc:derby:/Users/lixw/opt/db/user-platform;create=true");
+////            connection = driver.connect("jdbc:derby:/Users/lixw/opt/db/user-platform;create=true", new Properties());
+//
+//            connection = DriverManager.getConnection(databaseUrl);
+//            statement = connection.createStatement();
+//        } catch (SQLException throwables) {
+//            throwables.printStackTrace();
+//        }
 
-        String databaseUrl = "jdbc:derby:/Users/lixw/opt/db/user-platform;create=true";
-        try {
-
-
-//            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-//            Driver driver = DriverManager.getDriver("jdbc:derby:/Users/lixw/opt/db/user-platform;create=true");
-//            connection = driver.connect("jdbc:derby:/Users/lixw/opt/db/user-platform;create=true", new Properties());
-
-            connection = DriverManager.getConnection(databaseUrl);
-            statement = connection.createStatement();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
         }
-
         }
 
 
