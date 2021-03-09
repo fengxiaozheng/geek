@@ -1,5 +1,6 @@
 package com.lixw.web.domain;
 
+import javax.validation.constraints.NotEmpty;
 import java.util.Objects;
 
 /**
@@ -9,12 +10,14 @@ import java.util.Objects;
  */
 public class User {
 
+
     private Long id;
 
     private String name;
 
     private String password;
 
+    @NotEmpty
     private String email;
 
     private String phoneNumber;

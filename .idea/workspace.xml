@@ -10,27 +10,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6189c022-fea5-4284-9958-a9417a941635" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-05" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/success_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c320.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/d300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/d311.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/repository/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
     </list>
@@ -74,7 +104,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -84,20 +114,45 @@
     <property name="settings.editor.selected.configurable" value="net.intellij.plugins.sexyeditor.SexyEditorConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/META-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services" />
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lixw.web.domain" />
       <recent name="com.geek.lixw" />
       <recent name="com.geek.lixw.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services" />
-      <recent name="$PROJECT_DIR$/user-web/src/main/webapp" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-web/src/main/webapp/META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote.remote">
+  <component name="RunManager" selected="Application.DBConnectManager">
+    <configuration name="DBConnectManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lixw.web.db.DBConnectManager" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lixw.web.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="remote" type="Remote">
       <module name="user-web" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -186,7 +241,13 @@
     <list>
       <item itemvalue="Remote.remote" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.108" />
+      <item itemvalue="Application.DBConnectManager" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBConnectManager" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -199,7 +260,9 @@
       <workItem from="1614666817522" duration="953000" />
       <workItem from="1614667799216" duration="16528000" />
       <workItem from="1614733250642" duration="28826000" />
-      <workItem from="1614949614352" duration="284000" />
+      <workItem from="1614949614352" duration="481000" />
+      <workItem from="1615007440915" duration="599000" />
+      <workItem from="1615163920003" duration="17122000" />
     </task>
     <servers />
   </component>
@@ -215,10 +278,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="300" y="0" width="1079" height="1050" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614777942930" />
-    <state x="606" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1614762004258">
+    <state x="606" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1615281035464">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="606" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1614762004258" />
+    <state x="606" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1615281035464" />
     <state x="546" y="82" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1614676921912">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -227,25 +290,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="437" y="333" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1614778943734" />
-    <state width="1625" height="337" key="GridCell.Tab.0.bottom" timestamp="1614948967937">
-      <screen x="0" y="25" width="1680" height="958" />
+    <state width="1625" height="272" key="GridCell.Tab.0.bottom" timestamp="1615279048731">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1625" height="337" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614778951235" />
+    <state width="1625" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1615279048731" />
     <state width="1625" height="337" key="GridCell.Tab.0.bottom/0.25.1680.958@0.25.1680.958" timestamp="1614948967937" />
-    <state width="1625" height="337" key="GridCell.Tab.0.center" timestamp="1614948967936">
-      <screen x="0" y="25" width="1680" height="958" />
+    <state width="1625" height="272" key="GridCell.Tab.0.center" timestamp="1615279048729">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1625" height="337" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614778951234" />
+    <state width="1625" height="272" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1615279048729" />
     <state width="1625" height="337" key="GridCell.Tab.0.center/0.25.1680.958@0.25.1680.958" timestamp="1614948967936" />
-    <state width="1625" height="337" key="GridCell.Tab.0.left" timestamp="1614948967936">
-      <screen x="0" y="25" width="1680" height="958" />
+    <state width="1625" height="272" key="GridCell.Tab.0.left" timestamp="1615279048727">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1625" height="337" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614778951230" />
+    <state width="1625" height="272" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1615279048727" />
     <state width="1625" height="337" key="GridCell.Tab.0.left/0.25.1680.958@0.25.1680.958" timestamp="1614948967936" />
-    <state width="1625" height="337" key="GridCell.Tab.0.right" timestamp="1614948967937">
-      <screen x="0" y="25" width="1680" height="958" />
+    <state width="1625" height="272" key="GridCell.Tab.0.right" timestamp="1615279048730">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1625" height="337" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614778951234" />
+    <state width="1625" height="272" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1615279048730" />
     <state width="1625" height="337" key="GridCell.Tab.0.right/0.25.1680.958@0.25.1680.958" timestamp="1614948967937" />
     <state width="1625" height="337" key="GridCell.Tab.1.bottom" timestamp="1614948967939">
       <screen x="0" y="25" width="1680" height="958" />
@@ -332,10 +395,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="421" y="244" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614759685339" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1614753849675">
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1615280297094">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614753849675" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1615280297094" />
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.25.1680.959@0.25.1680.959" timestamp="1614753066784" />
   </component>
 </project>

@@ -4,6 +4,7 @@ import com.lixw.web.db.DBConnectManager;
 import com.lixw.web.domain.User;
 import com.lixw.web.repository.UserRepository;
 import com.lixw.web.repository.UserRepositoryImpl;
+import com.lixw.web.validator.DelegatingValidation;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -18,6 +19,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean save(User user) {
+        DelegatingValidation validation = new DelegatingValidation();
+        validation.validate(user);
         UserRepository userRepository = new UserRepositoryImpl();
          userRepository.drop();
         userRepository.createTable();
