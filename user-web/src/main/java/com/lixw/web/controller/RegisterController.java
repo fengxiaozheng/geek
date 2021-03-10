@@ -1,6 +1,7 @@
 package com.lixw.web.controller;
 
 import com.geek.lixw.controller.PageController;
+import com.lixw.web.component.ComponentContext;
 import com.lixw.web.db.DBConnectManager;
 import com.lixw.web.domain.User;
 import com.lixw.web.repository.UserRepository;
@@ -40,6 +41,8 @@ public class RegisterController implements PageController {
 ////        ResultSet resultSet = statement.executeQuery("");
 //        Introspector.getBeanInfo(User.class, Object.class);
 
+        ComponentContext componentContext = ComponentContext.getInstance();
+        componentContext.init(request.getServletContext());
         UserService userService = new UserServiceImpl();
         User user = new User();
         user.setName(username);

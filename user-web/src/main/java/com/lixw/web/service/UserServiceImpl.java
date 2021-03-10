@@ -1,15 +1,18 @@
 package com.lixw.web.service;
 
-import com.lixw.web.db.DBConnectManager;
 import com.lixw.web.domain.User;
-import com.lixw.web.repository.UserRepository;
-import com.lixw.web.repository.UserRepositoryImpl;
-import com.lixw.web.validator.DelegatingValidation;
+import com.lixw.web.orm.jpa.DelegatingEntityManager;
+import org.apache.derby.jdbc.EmbeddedDataSource;
 
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.sql.*;
-import java.util.Properties;
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.ValidatorFactory;
+import java.security.InvalidParameterException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author lixw
@@ -19,16 +22,29 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean save(User user) {
-        DelegatingValidation validation = new DelegatingValidation();
-        validation.validate(user);
-        UserRepository userRepository = new UserRepositoryImpl();
-         userRepository.drop();
-        userRepository.createTable();
-        boolean b = userRepository.save(user);
-        if (b) {
-            userRepository.findUserByName(user.getName());
-            return true;
-        }
-        return false;
+        ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
+        Set<ConstraintViolation<User>> violations = validatorFactory.getValidator().validate(user);
+        violations.forEach(userConstraintViolation -> {
+            throw new InvalidParameterException(userConstraintViolation.getMessage());
+        });
+        DelegatingEntityManager entityManager = new DelegatingEntityManager();
+        entityManager.setPersistenceUnitName("emf");
+        entityManager.setPersistenceLocation("jpa.datasource.properties");
+        entityManager.init();
+        entityManager.persist(user);
+
+        User findResult = entityManager.find(User.class, 1L);
+        System.out.println("findResult = " + findResult);
+        return true;
+
+//        UserRepository userRepository = new UserRepositoryImpl();
+//         userRepository.drop();
+//        userRepository.createTable();
+//        boolean b = userRepository.save(user);
+//        if (b) {
+//            userRepository.findUserByName(user.getName());
+//            return true;
+//        }
+//        return false;
     }
 }

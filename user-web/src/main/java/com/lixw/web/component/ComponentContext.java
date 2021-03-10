@@ -16,13 +16,15 @@ import java.util.stream.Stream;
  */
 public class ComponentContext {
 
-    public static final String CONTEXT_NAME = ComponentContext.class.getName();
+    public static final String CONTEXT_NAME = ComponentContext.class.getSimpleName();
 
     private static final String JNDI_ENV_CONTEXT_NAME = "java:comp/env";
 
     private static final Logger logger = Logger.getLogger(ComponentContext.class.getSimpleName());
 
     private static ServletContext servletContext;
+
+    private static ComponentContext componentContext;
 
     private Context envContext;
 
@@ -31,7 +33,13 @@ public class ComponentContext {
     private final Map<String, Object> componentMaps = new LinkedHashMap<>();
 
     public static ComponentContext getInstance() {
-        return (ComponentContext) servletContext.getAttribute(CONTEXT_NAME);
+        return componentContext == null ? new ComponentContext() : componentContext;
+    }
+
+    private ComponentContext() {
+        if (componentContext == null) {
+            componentContext = this;
+        }
     }
 
     public void init(ServletContext servletContext) {

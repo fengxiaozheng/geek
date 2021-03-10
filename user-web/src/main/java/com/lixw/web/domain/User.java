@@ -1,6 +1,14 @@
 package com.lixw.web.domain;
 
-import javax.validation.constraints.NotEmpty;
+import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
@@ -8,18 +16,28 @@ import java.util.Objects;
  *
  * @since 1.0
  */
-public class User {
+@Entity
+@Table(name = "users")
+public class User implements Serializable {
 
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column
+    @NotEmpty(message = "用户名不能为空")
     private String name;
 
+    @Size(min = 6, max = 32, message = "密码长度应在6到32之间")
+    @Column
     private String password;
 
-    @NotEmpty
+    @Column
     private String email;
 
+    @Column
+    @Pattern(regexp = "^\\d{11}$", message = "手机号码为11位")
     private String phoneNumber;
 
     public Long getId() {
