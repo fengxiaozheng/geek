@@ -1,6 +1,4 @@
 com/lixw/web/service/UserServiceImpl.class
-com/lixw/web/validator/DelegatingValidation.class
-com/lixw/web/validator/UserValid.class
 com/lixw/web/repository/UserRepository.class
 com/lixw/web/db/DBConnectManager.class
 com/lixw/web/component/ComponentContext.class

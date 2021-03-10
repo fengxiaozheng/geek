@@ -179,4 +179,10 @@ public class ComponentContext {
             throw new RuntimeException(e);
         }
     }
+
+    public void destroyComponents() {
+        if (servletContext != null) {
+            servletContext = null;
+        }
+    }
 }

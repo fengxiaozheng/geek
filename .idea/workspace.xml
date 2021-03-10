@@ -12,57 +12,22 @@
     <list default="true" id="6189c022-fea5-4284-9958-a9417a941635" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c111.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c130.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c141.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c340.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c351.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/d320.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/seg0/d331.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/src/main/java/com/geek/lixw/FrontControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/com/geek/lixw/FrontControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/classes/com/geek/lixw/FrontControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/classes/com/geek/lixw/FrontControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/component/ComponentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/component/ComponentContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/resources/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
@@ -267,7 +232,7 @@
       <workItem from="1614733250642" duration="28826000" />
       <workItem from="1614949614352" duration="481000" />
       <workItem from="1615007440915" duration="599000" />
-      <workItem from="1615163920003" duration="27882000" />
+      <workItem from="1615163920003" duration="28910000" />
     </task>
     <servers />
   </component>
@@ -419,12 +384,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java</url>
-          <line>54</line>
+          <line>52</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

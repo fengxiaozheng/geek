@@ -35,6 +35,7 @@ public class UserServiceImpl implements UserService {
 
         User findResult = entityManager.find(User.class, 1L);
         System.out.println("findResult = " + findResult);
+        entityManager.onDestroy();
         return true;
 
 //        UserRepository userRepository = new UserRepositoryImpl();

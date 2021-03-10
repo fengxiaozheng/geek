@@ -3,8 +3,6 @@
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/repository/UserRepository.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/domain/User.java
-/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/validator/UserValid.java
-/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/validator/DelegatingValidation.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/db/DBConnectManager.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/service/UserService.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/controller/IndexController.java

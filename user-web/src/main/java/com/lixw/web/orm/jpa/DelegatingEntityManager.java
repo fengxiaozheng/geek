@@ -57,6 +57,10 @@ public class DelegatingEntityManager implements EntityManager {
         return properties;
     }
 
+    public void onDestroy() {
+        ComponentContext.getInstance().destroyComponents();
+    }
+
     // Setter 方法会被 Tomcat JNDI 实现调用
 
     public void setPersistenceUnitName(String persistenceUnitName) {
