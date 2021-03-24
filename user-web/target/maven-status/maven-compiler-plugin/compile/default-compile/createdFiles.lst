@@ -1,8 +1,10 @@
 com/lixw/web/service/UserServiceImpl.class
 com/lixw/web/repository/UserRepository.class
+com/lixw/web/listener/ComponentContextInit.class
 com/lixw/web/db/DBConnectManager.class
-com/lixw/web/component/ComponentContext.class
+com/lixw/web/jolokia/JolokiaBootstrapDemo.class
 com/lixw/web/orm/jpa/DelegatingEntityManager.class
+com/lixw/web/listener/ComponentContextListener.class
 com/lixw/web/domain/User.class
 com/lixw/web/service/UserService.class
 com/lixw/web/controller/RegisterController.class

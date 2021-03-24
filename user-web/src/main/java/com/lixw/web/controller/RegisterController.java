@@ -1,24 +1,15 @@
 package com.lixw.web.controller;
 
 import com.geek.lixw.controller.PageController;
-import com.lixw.web.component.ComponentContext;
-import com.lixw.web.db.DBConnectManager;
+import com.lixw.di.ComponentContext;
 import com.lixw.web.domain.User;
-import com.lixw.web.repository.UserRepository;
-import com.lixw.web.repository.UserRepositoryImpl;
 import com.lixw.web.service.UserService;
 import com.lixw.web.service.UserServiceImpl;
-import org.apache.commons.lang.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import java.beans.Introspector;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
 
 /**
  * @author lixw

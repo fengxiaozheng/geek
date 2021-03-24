@@ -1,6 +1,7 @@
 package com.lixw.web.orm.jpa;
 
-import com.lixw.web.component.ComponentContext;
+
+import com.lixw.di.ComponentContext;
 
 import javax.annotation.PostConstruct;
 import javax.persistence.*;

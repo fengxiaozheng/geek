@@ -1,10 +1,12 @@
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java
+/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/listener/ComponentContextListener.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/controller/RegisterController.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/repository/UserRepositoryImpl.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/repository/UserRepository.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/domain/User.java
+/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/listener/ComponentContextInit.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/db/DBConnectManager.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/service/UserService.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/controller/IndexController.java
 /Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/service/UserServiceImpl.java
-/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/component/ComponentContext.java
+/Users/lixw/JavaProjects/personal/geek/homework/user-web/src/main/java/com/lixw/web/jolokia/JolokiaBootstrapDemo.java

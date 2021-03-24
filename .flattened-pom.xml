@@ -9,23 +9,29 @@
   <modules>
     <module>my-web-mvc</module>
     <module>user-web</module>
+    <module>my-configuration</module>
+    <module>my-dependency-injection</module>
   </modules>
   <properties>
+    <microprofile-config-api.version>2.0</microprofile-config-api.version>
+    <maven.flatten.version>1.2.5</maven.flatten.version>
+    <hibernate.version>5.4.29.Final</hibernate.version>
+    <maven.jar.version>3.2.0</maven.jar.version>
     <maven.source.version>3.2.1</maven.source.version>
     <javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
-    <commons-lang.version>2.6</commons-lang.version>
+    <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+    <maven.compiler.source>8</maven.compiler.source>
+    <junit.version>4.13</junit.version>
+    <maven.deploy.version>2.8.2</maven.deploy.version>
     <maven.war.version>3.3.1</maven.war.version>
-    <jstl.version>1.2</jstl.version>
     <maven.compiler.target>8</maven.compiler.target>
     <maven.compiler.version>3.8.1</maven.compiler.version>
-    <derby.version>10.1.3.1</derby.version>
-    <maven.deploy.version>2.8.2</maven.deploy.version>
-    <hibernate.version>5.4.29.Final</hibernate.version>
-    <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+    <jstl.version>1.2</jstl.version>
+    <commons-logging.version>1.2</commons-logging.version>
     <hibernate.validator.version>5.3.6.Final</hibernate.validator.version>
-    <maven.jar.version>3.2.0</maven.jar.version>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.flatten.version>1.2.5</maven.flatten.version>
+    <commons-lang.version>2.6</commons-lang.version>
+    <derby.version>10.1.3.1</derby.version>
+    <jolokia.version>1.6.2</jolokia.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -68,6 +74,32 @@
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-validator</artifactId>
         <version>${hibernate.validator.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jolokia</groupId>
+        <artifactId>jolokia-core</artifactId>
+        <version>${jolokia.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jolokia</groupId>
+        <artifactId>jolokia-client-java</artifactId>
+        <version>${jolokia.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>${commons-logging.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.microprofile.config</groupId>
+        <artifactId>microprofile-config-api</artifactId>
+        <version>${microprofile-config-api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>

@@ -11,6 +11,8 @@
     <modules>
         <module>my-web-mvc</module>
         <module>user-web</module>
+        <module>my-configuration</module>
+        <module>my-dependency-injection</module>
     </modules>
 
     <properties>
@@ -24,6 +26,8 @@
         <hibernate.validator.version>5.3.6.Final</hibernate.validator.version>
         <jolokia.version>1.6.2</jolokia.version>
         <commons-logging.version>1.2</commons-logging.version>
+        <microprofile-config-api.version>2.0</microprofile-config-api.version>
+        <junit.version>4.13</junit.version>
 
         <!-- Maven Plugins 版本 -->
         <maven.compiler.version>3.8.1</maven.compiler.version>
@@ -112,6 +116,20 @@
                 <version>${commons-logging.version}</version>
             </dependency>
 
+            <!-- MicroProfile -->
+            <dependency>
+                <groupId>org.eclipse.microprofile.config</groupId>
+                <artifactId>microprofile-config-api</artifactId>
+                <version>${microprofile-config-api.version}</version>
+            </dependency>
+
+            <!-- JUnit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
 
         </dependencies>
 

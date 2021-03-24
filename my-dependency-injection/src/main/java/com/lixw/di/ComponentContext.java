@@ -1,4 +1,4 @@
-package com.lixw.web.component;
+package com.lixw.di;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 /**
  * @author lixw
- * @date 2021/03/09
+ * @date 2021/03/24
  */
 public class ComponentContext {
 
@@ -68,8 +68,8 @@ public class ComponentContext {
         //获取方法
         Stream.of(componentClass.getMethods())
                 .filter(method -> !Modifier.isStatic(method.getModifiers())//非静态方法
-                && method.getParameterCount() == 0 //无参
-                && method.isAnnotationPresent(PostConstruct.class) //方法标有@PostConstruct注解
+                        && method.getParameterCount() == 0 //无参
+                        && method.isAnnotationPresent(PostConstruct.class) //方法标有@PostConstruct注解
                 ).forEach(method -> {
             // 执行目标方法
             try {

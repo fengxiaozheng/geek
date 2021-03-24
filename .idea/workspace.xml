@@ -10,15 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6189c022-fea5-4284-9958-a9417a941635" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/maven/org.jolokia/jolokia-war/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/maven/org.jolokia/jolokia-war/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/lib/jolokia-core-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/lib/jolokia-jsr160-1.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/lib/json-simple-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-configuration/src/main/resources/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-configuration/src/main/resources/services/org.eclipse.microprofile.config.spi.ConfigProviderResolver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-configuration/src/main/resources/services/org.eclipse.microprofile.config.spi.ConfigSource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-configuration/src/main/resources/services/org.eclipse.microprofile.config.spi.Converter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Databases/UserPlatformDB/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/component/ComponentContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/jolokia/JolokiaBootstrapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/jolokia/JolokiaBootstrapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/maven/org.jolokia/jolokia-war/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/maven/org.jolokia/jolokia-war/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT-war-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/classes/com/lixw/web/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/lib/my-web-mvc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +72,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1pBqQHNmGqAmopxkSywF3iiNASj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -53,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-configuration/src/main/java/com/lixw/configuration/source" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -64,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-configuration/src/main/java/com/lixw/configuration/source" />
+      <recent name="$PROJECT_DIR$/my-configuration/src/main/java/com/lixw/configuration" />
+      <recent name="$PROJECT_DIR$/my-configuration/src/main/resources" />
       <recent name="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/user-web/src/main/webapp/META-INF" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/user-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/user-web/src/main/resources/META-INF" />
@@ -80,7 +109,7 @@
       <recent name="com.geek.lixw.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JolokiaBootstrapDemo">
+  <component name="RunManager" selected="Remote JVM Debug.remote">
     <configuration name="DBConnectManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lixw.web.db.DBConnectManager" />
       <module name="user-web" />
@@ -232,7 +261,7 @@
       <workItem from="1615163920003" duration="31363000" />
       <workItem from="1615431639522" duration="1574000" />
       <workItem from="1615516662504" duration="599000" />
-      <workItem from="1615878904735" duration="4605000" />
+      <workItem from="1615878904735" duration="15659000" />
     </task>
     <servers />
   </component>
@@ -244,8 +273,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/orm/jpa/DelegatingEntityManager.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-web/src/main/java/com/lixw/web/listener/ComponentContextListener.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
